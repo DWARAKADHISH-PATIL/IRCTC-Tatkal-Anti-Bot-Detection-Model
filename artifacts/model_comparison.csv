@@ -1,0 +1,4 @@
+Model,Train_AUC,Val_AUC,Test_AUC,Test_Accuracy,Test_Precision,Test_Recall,Test_F1
+Logistic Regression,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+XGBoost,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+LightGBM,1.0,1.0,1.0,1.0,1.0,1.0,1.0

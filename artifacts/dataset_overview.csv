@@ -1,0 +1,2 @@
+Dataset,Rows,Columns,Memory (MB),Missing (%),Duplicates
+irctc_bot_detection_synthetic,15000,10,1.0873146057128906,0.0,0

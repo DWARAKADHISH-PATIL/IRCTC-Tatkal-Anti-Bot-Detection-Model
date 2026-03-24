@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,Specificity,F1-Score,MCC,AUC-ROC,PR-AUC
+Logistic Regression,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+XGBoost,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+LightGBM,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0

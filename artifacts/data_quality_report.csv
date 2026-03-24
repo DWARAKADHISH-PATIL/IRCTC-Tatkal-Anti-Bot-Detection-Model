@@ -1,0 +1,2 @@
+Dataset,Rows,Columns,Completeness (%),Numeric Features,Categorical Features
+irctc_bot_detection_synthetic,15000,10,100.0,10,0
