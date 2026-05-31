@@ -1,0 +1,642 @@
+[
+  {
+    "session_id": "SES_2025_00001",
+    "prediction": 1,
+    "classification": "BOT",
+    "confidence": 0.9998512268066406,
+    "timestamp": "2025-12-22T21:53:57.106583",
+    "latency_ms": "53.3",
+    "latency_sla": "\u26a0\ufe0f FAIL",
+    "top_contributing_features": [
+      {
+        "feature": "form_fill_time_sec",
+        "value": -1.156203641869717,
+        "shap_value": 6.676424980163574,
+        "contribution": "Bot-indicative"
+      },
+      {
+        "feature": "otp_solve_time_sec",
+        "value": -1.2333758812556048,
+        "shap_value": 1.075974941253662,
+        "contribution": "Bot-indicative"
+      },
+      {
+        "feature": "form_fill_volatility_indicator",
+        "value": -1.1562036418697168,
+        "shap_value": 0.9140032529830933,
+        "contribution": "Bot-indicative"
+      },
+      {
+        "feature": "device_fingerprint_reuse_count",
+        "value": 2.575274118351882,
+        "shap_value": 0.09474742412567139,
+        "contribution": "Bot-indicative"
+      },
+      {
+        "feature": "checkout_attempts_per_session",
+        "value": 1.4573538010331237,
+        "shap_value": 0.04976579546928406,
+        "contribution": "Bot-indicative"
+      },
+      {
+        "feature": "blacklist_match_probability",
+        "value": 2.2503291721116847,
+        "shap_value": 0.0,
+        "contribution": "Human-indicative"
+      },
+      {
+        "feature": "prior_fraud_flag",
+        "value": 1.95020349889434,
+        "shap_value": 0.0,
+        "contribution": "Human-indicative"
+      },
+      {
+        "feature": "account_age_days_proxy",
+        "value": -0.8184742499878099,
+        "shap_value": 0.0,
+        "contribution": "Human-indicative"
+      },
+      {
+        "feature": "aadhaar_verified",
+        "value": -1.789794035679,
+        "shap_value": 0.0,
+        "contribution": "Human-indicative"
+      },
+      {
+        "feature": "volume_anomaly_score",
+        "value": 0.0,
+        "shap_value": 0.0,
+        "contribution": "Human-indicative"
+      }
+    ],
+    "shap_values": [
+      6.676424980163574,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.075974941253662,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.9140032529830933,
+      0.0,
+      0.0,
+      0.0,
+      0.09474742412567139,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.04976579546928406,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "audit_compliant": true,
+    "regulation": "Section 143 Railways Act"
+  },
+  {
+    "session_id": "SES_2025_00002",
+    "prediction": 1,
+    "classification": "BOT",
+    "confidence": 0.9998512268066406,
+    "timestamp": "2025-12-22T21:53:57.129627",
+    "latency_ms": "21.6",
+    "latency_sla": "\u2705 PASS",
+    "top_contributing_features": [
+      {
+        "feature": "form_fill_time_sec",
+        "value": -1.2923515729206796,
+        "shap_value": 6.676424980163574,
+        "contribution": "Bot-indicative"
+      },
+      {
+        "feature": "otp_solve_time_sec",
+        "value": -1.2806384952204617,
+        "shap_value": 1.075974941253662,
+        "contribution": "Bot-indicative"
+      },
+      {
+        "feature": "form_fill_volatility_indicator",
+        "value": -1.2923515729206796,
+        "shap_value": 0.9140032529830933,
+        "contribution": "Bot-indicative"
+      },
+      {
+        "feature": "device_fingerprint_reuse_count",
+        "value": 2.610854967915279,
+        "shap_value": 0.09474742412567139,
+        "contribution": "Bot-indicative"
+      },
+      {
+        "feature": "checkout_attempts_per_session",
+        "value": 1.2222895147133013,
+        "shap_value": 0.04976579546928406,
+        "contribution": "Bot-indicative"
+      },
+      {
+        "feature": "blacklist_match_probability",
+        "value": 2.1435020443438186,
+        "shap_value": 0.0,
+        "contribution": "Human-indicative"
+      },
+      {
+        "feature": "prior_fraud_flag",
+        "value": 1.95020349889434,
+        "shap_value": 0.0,
+        "contribution": "Human-indicative"
+      },
+      {
+        "feature": "account_age_days_proxy",
+        "value": -0.6088432654244681,
+        "shap_value": 0.0,
+        "contribution": "Human-indicative"
+      },
+      {
+        "feature": "aadhaar_verified",
+        "value": 0.5587235067640769,
+        "shap_value": 0.0,
+        "contribution": "Human-indicative"
+      },
+      {
+        "feature": "volume_anomaly_score",
+        "value": 0.0,
+        "shap_value": 0.0,
+        "contribution": "Human-indicative"
+      }
+    ],
+    "shap_values": [
+      6.676424980163574,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.075974941253662,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.9140032529830933,
+      0.0,
+      0.0,
+      0.0,
+      0.09474742412567139,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.04976579546928406,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "audit_compliant": true,
+    "regulation": "Section 143 Railways Act"
+  },
+  {
+    "session_id": "SES_2025_00003",
+    "prediction": 0,
+    "classification": "HUMAN",
+    "confidence": 0.9998506903648376,
+    "timestamp": "2025-12-22T21:53:57.151846",
+    "latency_ms": "21.3",
+    "latency_sla": "\u2705 PASS",
+    "top_contributing_features": [
+      {
+        "feature": "form_fill_time_sec",
+        "value": 2.0320734674874465,
+        "shap_value": 6.678436279296875,
+        "contribution": "Bot-indicative"
+      },
+      {
+        "feature": "otp_solve_time_sec",
+        "value": 1.5432410498960372,
+        "shap_value": 1.0760492086410522,
+        "contribution": "Bot-indicative"
+      },
+      {
+        "feature": "form_fill_volatility_indicator",
+        "value": 2.032073467487447,
+        "shap_value": 0.9132808446884155,
+        "contribution": "Bot-indicative"
+      },
+      {
+        "feature": "device_fingerprint_reuse_count",
+        "value": -0.5914214927904443,
+        "shap_value": 0.09421406686306,
+        "contribution": "Bot-indicative"
+      },
+      {
+        "feature": "checkout_attempts_per_session",
+        "value": -0.6582247758452779,
+        "shap_value": 0.049747031182050705,
+        "contribution": "Bot-indicative"
+      },
+      {
+        "feature": "blacklist_match_probability",
+        "value": -0.6652156938580821,
+        "shap_value": 0.0,
+        "contribution": "Human-indicative"
+      },
+      {
+        "feature": "prior_fraud_flag",
+        "value": -0.5127670012729165,
+        "shap_value": 0.0,
+        "contribution": "Human-indicative"
+      },
+      {
+        "feature": "account_age_days_proxy",
+        "value": 1.214672430802346,
+        "shap_value": 0.0,
+        "contribution": "Human-indicative"
+      },
+      {
+        "feature": "aadhaar_verified",
+        "value": 0.5587235067640769,
+        "shap_value": 0.0,
+        "contribution": "Human-indicative"
+      },
+      {
+        "feature": "volume_anomaly_score",
+        "value": 0.0,
+        "shap_value": 0.0,
+        "contribution": "Human-indicative"
+      }
+    ],
+    "shap_values": [
+      -6.678436279296875,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.0760492086410522,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.9132808446884155,
+      0.0,
+      0.0,
+      0.0,
+      -0.09421406686306,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.049747031182050705,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "audit_compliant": true,
+    "regulation": "Section 143 Railways Act"
+  },
+  {
+    "session_id": "SES_2025_00004",
+    "prediction": 0,
+    "classification": "HUMAN",
+    "confidence": 0.9998506903648376,
+    "timestamp": "2025-12-22T21:53:57.174370",
+    "latency_ms": "20.5",
+    "latency_sla": "\u2705 PASS",
+    "top_contributing_features": [
+      {
+        "feature": "form_fill_time_sec",
+        "value": -0.4495188990974685,
+        "shap_value": 6.678436279296875,
+        "contribution": "Bot-indicative"
+      },
+      {
+        "feature": "otp_solve_time_sec",
+        "value": 0.9403736879255558,
+        "shap_value": 1.0760492086410522,
+        "contribution": "Bot-indicative"
+      },
+      {
+        "feature": "form_fill_volatility_indicator",
+        "value": -0.4495188990974683,
+        "shap_value": 0.9132808446884155,
+        "contribution": "Bot-indicative"
+      },
+      {
+        "feature": "device_fingerprint_reuse_count",
+        "value": -0.5914214927904443,
+        "shap_value": 0.09421406686306,
+        "contribution": "Bot-indicative"
+      },
+      {
+        "feature": "checkout_attempts_per_session",
+        "value": -0.5406926326853667,
+        "shap_value": 0.049747031182050705,
+        "contribution": "Bot-indicative"
+      },
+      {
+        "feature": "blacklist_match_probability",
+        "value": -0.6718758630227623,
+        "shap_value": 0.0,
+        "contribution": "Human-indicative"
+      },
+      {
+        "feature": "prior_fraud_flag",
+        "value": -0.5127670012729165,
+        "shap_value": 0.0,
+        "contribution": "Human-indicative"
+      },
+      {
+        "feature": "account_age_days_proxy",
+        "value": 0.435249374698994,
+        "shap_value": 0.0,
+        "contribution": "Human-indicative"
+      },
+      {
+        "feature": "aadhaar_verified",
+        "value": 0.5587235067640769,
+        "shap_value": 0.0,
+        "contribution": "Human-indicative"
+      },
+      {
+        "feature": "volume_anomaly_score",
+        "value": 0.0,
+        "shap_value": 0.0,
+        "contribution": "Human-indicative"
+      }
+    ],
+    "shap_values": [
+      -6.678436279296875,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.0760492086410522,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.9132808446884155,
+      0.0,
+      0.0,
+      0.0,
+      -0.09421406686306,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.049747031182050705,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "audit_compliant": true,
+    "regulation": "Section 143 Railways Act"
+  },
+  {
+    "session_id": "SES_2025_00005",
+    "prediction": 0,
+    "classification": "HUMAN",
+    "confidence": 0.9998506903648376,
+    "timestamp": "2025-12-22T21:53:57.194976",
+    "latency_ms": "19.0",
+    "latency_sla": "\u2705 PASS",
+    "top_contributing_features": [
+      {
+        "feature": "form_fill_time_sec",
+        "value": 2.116123850559641,
+        "shap_value": 6.678436279296875,
+        "contribution": "Bot-indicative"
+      },
+      {
+        "feature": "otp_solve_time_sec",
+        "value": -0.5317089507893223,
+        "shap_value": 1.0760492086410522,
+        "contribution": "Bot-indicative"
+      },
+      {
+        "feature": "form_fill_volatility_indicator",
+        "value": 2.1161238505596414,
+        "shap_value": 0.9132808446884155,
+        "contribution": "Bot-indicative"
+      },
+      {
+        "feature": "device_fingerprint_reuse_count",
+        "value": -0.5914214927904443,
+        "shap_value": 0.09421406686306,
+        "contribution": "Bot-indicative"
+      },
+      {
+        "feature": "checkout_attempts_per_session",
+        "value": -0.3056283463655443,
+        "shap_value": 0.049747031182050705,
+        "contribution": "Bot-indicative"
+      },
+      {
+        "feature": "blacklist_match_probability",
+        "value": -0.49444252519251386,
+        "shap_value": 0.0,
+        "contribution": "Human-indicative"
+      },
+      {
+        "feature": "prior_fraud_flag",
+        "value": 1.95020349889434,
+        "shap_value": 0.0,
+        "contribution": "Human-indicative"
+      },
+      {
+        "feature": "account_age_days_proxy",
+        "value": -0.7626062327997821,
+        "shap_value": 0.0,
+        "contribution": "Human-indicative"
+      },
+      {
+        "feature": "aadhaar_verified",
+        "value": 0.5587235067640769,
+        "shap_value": 0.0,
+        "contribution": "Human-indicative"
+      },
+      {
+        "feature": "volume_anomaly_score",
+        "value": 0.0,
+        "shap_value": 0.0,
+        "contribution": "Human-indicative"
+      }
+    ],
+    "shap_values": [
+      -6.678436279296875,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.0760492086410522,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.9132808446884155,
+      0.0,
+      0.0,
+      0.0,
+      -0.09421406686306,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.049747031182050705,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "audit_compliant": true,
+    "regulation": "Section 143 Railways Act"
+  }
+]
