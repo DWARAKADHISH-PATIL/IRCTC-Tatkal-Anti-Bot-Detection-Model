@@ -1,0 +1,129 @@
+{
+  "model_type": "IRCTC Tatkal Bot Detection Ensemble",
+  "version": "1.0.0",
+  "created_date": "2025-12-22T21:06:24.555198",
+  "training_dataset": "Synthetic IRCTC Tatkal Sessions",
+  "total_features": 53,
+  "feature_names": [
+    "form_fill_time_sec",
+    "mouse_entropy",
+    "keystroke_interval_ms",
+    "scroll_depth_pct",
+    "page_view_time_sec",
+    "request_rate_per_sec",
+    "otp_solve_time_sec",
+    "device_consistency_score",
+    "tls_signature_entropy",
+    "geo_variance_km",
+    "user_agent_diversity",
+    "inter_request_variance_ms",
+    "burst_alignment_score",
+    "form_fill_efficiency",
+    "mouse_activity_anomaly",
+    "keystroke_consistency",
+    "page_interaction_depth",
+    "content_consumption_speed",
+    "otp_solve_speed",
+    "form_fill_volatility_indicator",
+    "behavioral_entropy",
+    "tls_signature_stability",
+    "tls_jitter_anomaly",
+    "device_fingerprint_reuse_count",
+    "device_consistency_anomaly",
+    "ja3_hash_stability",
+    "geographic_anomaly",
+    "user_agent_volatility",
+    "ip_reputation_proxy_signal",
+    "vpn_or_proxy_detected",
+    "datacenter_ip_probability",
+    "burst_window_anomaly",
+    "inter_request_timing_regularity",
+    "request_rate_anomaly",
+    "rapid_request_detection",
+    "request_burst_intensity",
+    "time_to_release_minutes",
+    "session_duration_sec",
+    "session_duration_anomaly",
+    "requests_per_session",
+    "requests_per_session_zscore",
+    "pnr_search_velocity",
+    "checkout_attempts_per_session",
+    "concurrent_session_spike",
+    "volume_anomaly_score",
+    "account_age_days_proxy",
+    "aadhaar_verified",
+    "prior_fraud_flag",
+    "blacklist_match_probability",
+    "behavioral_risk_score",
+    "device_risk_score",
+    "temporal_risk_score",
+    "ensemble_bot_probability"
+  ],
+  "target_variable": "is_bot",
+  "class_labels": [
+    "Human",
+    "Bot"
+  ],
+  "train_set_size": 10500,
+  "validation_set_size": 2250,
+  "test_set_size": 2250,
+  "best_model": "XGBoost",
+  "best_model_auc": 1.0,
+  "feature_engineering_steps": [
+    "Behavioral signals (8 features)",
+    "Device/Network fingerprinting (10 features)",
+    "Temporal/Burst signals (8 features)",
+    "Velocity/Volume anomalies (6 features)",
+    "Identity/Reputation signals (4 features)",
+    "Composite risk scores (3 features)"
+  ],
+  "preprocessing": {
+    "standardization": "StandardScaler",
+    "imbalance_handling": [
+      "Class weighting",
+      "SMOTE"
+    ],
+    "feature_selection_method": "Manual feature engineering"
+  },
+  "model_parameters": {
+    "logistic_regression": {
+      "max_iter": 1000,
+      "class_weight": "balanced"
+    },
+    "xgboost": {
+      "n_estimators": 200,
+      "max_depth": 6,
+      "learning_rate": 0.1,
+      "scale_pos_weight": 3.151838671411625
+    },
+    "lightgbm": {
+      "n_estimators": 200,
+      "max_depth": 7,
+      "learning_rate": 0.1,
+      "smote_applied": true
+    }
+  },
+  "performance_metrics": {
+    "logistic_regression": {
+      "test_auc_roc": 1.0,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0
+    },
+    "xgboost": {
+      "test_auc_roc": 1.0,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0
+    },
+    "lightgbm": {
+      "test_auc_roc": 1.0,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0
+    }
+  }
+}

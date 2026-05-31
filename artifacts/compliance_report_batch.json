@@ -1,0 +1,98 @@
+{
+  "report_type": "Batch Compliance Assessment",
+  "generated_at": "2025-12-22T21:53:57.196863",
+  "regulation": "Section 143 Railways Act",
+  "total_sessions": 5,
+  "assessments": [
+    {
+      "session_id": "SES_2025_00001",
+      "timestamp": "2025-12-22T21:53:57.106583",
+      "prediction": "BOT",
+      "compliance_checks": {
+        "latency_sla": "FAIL",
+        "explanation_provided": true,
+        "audit_trail_logged": true,
+        "features_validated": true
+      },
+      "overall_compliance": true,
+      "remediation_actions": [
+        "BLOCK_SESSION: Immediate blocking of booking session",
+        "LOG_INCIDENT: Record to Railway Protection Force (RPF)",
+        "NOTIFY_USER: Inform legitimate user if verification fails",
+        "REVIEW_THRESHOLD: Flag for compliance officer review if confidence <90%"
+      ]
+    },
+    {
+      "session_id": "SES_2025_00002",
+      "timestamp": "2025-12-22T21:53:57.129627",
+      "prediction": "BOT",
+      "compliance_checks": {
+        "latency_sla": "PASS",
+        "explanation_provided": true,
+        "audit_trail_logged": true,
+        "features_validated": true
+      },
+      "overall_compliance": true,
+      "remediation_actions": [
+        "BLOCK_SESSION: Immediate blocking of booking session",
+        "LOG_INCIDENT: Record to Railway Protection Force (RPF)",
+        "NOTIFY_USER: Inform legitimate user if verification fails",
+        "REVIEW_THRESHOLD: Flag for compliance officer review if confidence <90%"
+      ]
+    },
+    {
+      "session_id": "SES_2025_00003",
+      "timestamp": "2025-12-22T21:53:57.151846",
+      "prediction": "HUMAN",
+      "compliance_checks": {
+        "latency_sla": "PASS",
+        "explanation_provided": true,
+        "audit_trail_logged": true,
+        "features_validated": true
+      },
+      "overall_compliance": true,
+      "remediation_actions": [
+        "ALLOW_SESSION: Permit booking transaction",
+        "MONITOR: Continue monitoring for pattern changes"
+      ]
+    },
+    {
+      "session_id": "SES_2025_00004",
+      "timestamp": "2025-12-22T21:53:57.174370",
+      "prediction": "HUMAN",
+      "compliance_checks": {
+        "latency_sla": "PASS",
+        "explanation_provided": true,
+        "audit_trail_logged": true,
+        "features_validated": true
+      },
+      "overall_compliance": true,
+      "remediation_actions": [
+        "ALLOW_SESSION: Permit booking transaction",
+        "MONITOR: Continue monitoring for pattern changes"
+      ]
+    },
+    {
+      "session_id": "SES_2025_00005",
+      "timestamp": "2025-12-22T21:53:57.194976",
+      "prediction": "HUMAN",
+      "compliance_checks": {
+        "latency_sla": "PASS",
+        "explanation_provided": true,
+        "audit_trail_logged": true,
+        "features_validated": true
+      },
+      "overall_compliance": true,
+      "remediation_actions": [
+        "ALLOW_SESSION: Permit booking transaction",
+        "MONITOR: Continue monitoring for pattern changes"
+      ]
+    }
+  ],
+  "summary": {
+    "bots_detected": 2,
+    "humans_verified": 3,
+    "overall_compliance": "COMPLIANT",
+    "rpf_notifications_required": 2
+  }
+}
